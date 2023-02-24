@@ -1,0 +1,114 @@
+<app-toolbar></app-toolbar>
+
+<p-dialog 
+header="Nome-Agente"
+ [(visible)]="displayResponsive" 
+ [breakpoints]="{'960px': '75vw'}" 
+ [style]="{width: '50vw'}"
+ [draggable]="false" 
+ [resizable]="false"
+ [transitionOptions]="'300ms'"
+ >
+    <ng-template pTemplate="content">
+        <p-divider align="center">
+            <span class="p-tag">Biografia</span>
+        </p-divider>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p-divider align="center">
+            <span class="p-tag">Habilidades</span>
+        </p-divider>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </ng-template>
+
+    
+</p-dialog>
+
+<div class="background"></div>
+    <div class="flex flex-wrap justify-content-center card-container blue-container column-gap-4 row-gap-4" >
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card"
+            (click)="showResponsiveDialog()">
+                <img src="../../assets/Agents/fade.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Fade</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/sage.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Sage</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/jett.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Jett</h3>
+               
+              </div>
+        </div>
+
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/reyna.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Reyna</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/omen.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Omen</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/viper.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Viper</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/brimstone.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Brimstone</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/raze.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Raze</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/kj.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Killjoy</h3>
+               
+              </div>
+        </div>
+        <div class="card-formatacao border-round font-bold flex align-items-center justify-content-center">
+            <div class="card">
+                <img src="../../assets/Agents/fenix.png" alt="Imagem do Card">
+                <h3 style="margin-left: 40%;">Fenix</h3>
+               
+              </div>
+        </div>
+    </div>
+
+  
+    
+ 
+
+   
+

@@ -1,0 +1,21 @@
+<video autoplay loop [muted]="true" id="background-video">
+    <source src="../../assets/valorant-background-video.mp4" type="video/mp4">
+</video>
+<audio src="../../assets/valorant.mp3"></audio>
+<app-toolbar></app-toolbar>
+
+<div class="card">
+    <div class="flex justify-content-center flex-wrap card-container yellow-container">
+        <div class="flex align-items-center justify-content-center border-round m-2 mt-5">
+            <span class="p-buttonset">
+                <button 
+                pButton 
+                routerLink="/agentes"
+                class="button-principal"
+                (click)="reproduzirAudio()"
+                >AGENTES</button>
+            </span>
+     
+        </div>
+    </div>
+</div>
