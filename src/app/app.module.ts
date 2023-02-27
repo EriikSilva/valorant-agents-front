@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AgentesComponent } from './agentes/agentes.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import {SidebarModule} from 'primeng/sidebar';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     ButtonModule,
     ToolbarModule,
     DialogModule,
-    DividerModule
+    DividerModule,
+    SidebarModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

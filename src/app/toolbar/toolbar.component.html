@@ -1,26 +1,55 @@
+<p-sidebar [(visible)]="isVisible" [baseZIndex]="10000">
+  <p-button
+    [style]="{ width: '100%', 'margin-bottom': '1rem' }"
+    icon="pi pi-home"
+    label="Home"
+    routerLink=""
+    styleClass="#FF4655"
+  ></p-button>
+  <br />
+  <p-button
+    [style]="{ width: '100%', 'margin-bottom': '1rem' }"
+    icon="pi pi-users"
+    label="Agentes"
+    routerLink="/agentes"
+    styleClass="#FF4655"
+  ></p-button>
+</p-sidebar>
 <p-toolbar>
   <div class="p-toolbar-group-start">
+    <div class="minDisplayButton">
+      <p-button
+        type="text"
+        (click)="isVisible = true"
+        icon="pi pi-align-justify"
+      ></p-button>
+    </div>
     <p-button
-      class="m-2"
+      class="m-2 inicio"
       icon="pi pi-home"
       label="Home"
       routerLink=""
       styleClass="#FF4655"
     ></p-button>
     <p-button
+      class="inicio"
       icon="pi pi-users"
       label="Agentes"
       routerLink="/agentes"
       styleClass="#FF4655"
     ></p-button>
-    <!-- <p-splitButton label="Save" icon="pi pi-check" [model]="items" styleClass="p-button-warning"></p-splitButton> -->
   </div>
 
   <div class="p-toolbar-group-center">
+    <img
+      class="img-logo-responsive minDisplayButton"
+      routerLink=""
+      src="../../assets/valorant-icon.png"
+    />
     <img class="logo" src="../../assets/valorant-logo.png" />
   </div>
 
-  <div class="p-toolbar-group-end">
+  <div class="p-toolbar-group-end fim">
     <p-button label="Sobre" icon="pi pi-info" styleClass="#FF4655"></p-button>
   </div>
 </p-toolbar>
