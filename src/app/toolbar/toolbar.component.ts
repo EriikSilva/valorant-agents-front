@@ -1,11 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import {
-  BreakpointObserver,
-  Breakpoints,
-  BreakpointState,
-} from '@angular/cdk/layout';
-
 @Component({
   selector: 'app-toolbar',
   templateUrl: './toolbar.component.html',
